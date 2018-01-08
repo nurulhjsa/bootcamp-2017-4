@@ -8,6 +8,18 @@ public class Tabungan{
     private BigDecimal akrual;
     private String kriteriaProduct;
 
+    public Tabungan(){
+
+    }
+
+    public Tabungan(
+            Double sukuBunga, BigDecimal saldo, BigDecimal akrual, String kriteriaProduct){
+        this.sukuBunga = sukuBunga;
+        this.saldo = saldo;
+        this.akrual = akrual;
+        this.kriteriaProduct = kriteriaProduct;
+    }
+
     public Double getSukuBunga(){
         return this.sukuBunga;
     }

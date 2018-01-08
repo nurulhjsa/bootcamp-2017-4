@@ -4,6 +4,8 @@ import tdi.training.java.core.model.aplikasi.Tabungan;
 
 public class NasabahBadanUsaha extends Nasabah{
 
+    
+
     private String namaInstitusi;
     private String nomorNpwp;
     private String alamatKantor;
